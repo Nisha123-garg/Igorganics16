@@ -1,0 +1,196 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+    margin: 0px;
+    padding: 0px;
+}
+.menu-list ul li
+{
+    margin-left: 1vw;
+}
+.menu-list ul li a
+{
+    color: black !important;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.menu-list ul li a:hover
+{
+    color: #ee308f !important;
+}
+.menu-list .active a
+{
+    color: #ee308f !important;
+}
+.menu-button a
+{
+    background-color: #ee308f;
+    color: white;
+    font-size: 16px;
+    padding: 5px 20px;
+    margin-left: 5px;
+    text-transform: uppercase;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.menu-button a:hover
+{
+    text-decoration: none;
+}
+#banner
+{
+    background: linear-gradient(to top,#ee3090,#bc37b1,#933ecd,#6843ea);
+    padding: 20px 0px;
+}
+#banner h1
+{
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+#banner p
+{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+#balance-table
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.head-content p
+{
+    color: #6843ea;
+    font-size: 14px;
+}
+.table thead tr th
+{
+    font-size: 14px;
+    padding: 7px;
+}
+.table1 thead tr th
+{
+    font-size: 14px;
+    padding: 7px;
+    background-color: #e6e6e6;
+}
+.table1 tbody tr td
+{
+    font-size: 14px;
+    color: black;
+    padding: 7px;
+    text-align: center;
+}
+#insta-username
+{
+    padding: 5px;
+    width: 60%;
+    font-size: 16px;
+    border: 1px solid black;
+    color: #8c8484;
+}
+input[type="file"] {
+    display: none;
+}
+.custom-file-upload {    
+    display: inline-block;    
+    cursor: pointer;
+    background: linear-gradient(to top,#ee3090,#bc37b1,#933ecd,#6843ea);
+    color: white;
+    font-size:16px;
+    text-align: center;
+    padding: 5px 10px;
+    width: 30%;
+    margin-left: 40px;
+    float: right; 
+}
+.form-group
+{
+    margin-top: 20px;
+}
+#order-button 
+{
+    margin: 20px 0px;
+}
+#order-button
+{
+    background-color: #eb3091;
+    color: white;
+    font-size: 16px;
+    padding: 5px 12px;
+}
+#footer
+{
+    background-color: #b31266;
+    padding: 20px 0px;
+}
+.icon 
+{
+    margin-top: 10px;
+}
+.icon a
+{
+    color: #b31266;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 30px;
+    margin: 3px;
+   
+}
+@font-face
+{
+    font-family: OpenSans-Bold;
+    src: url('font/OpenSans-Bold');
+}
+@font-face
+{
+    font-family:OpenSans-Regular ;
+    src: url('font/OpenSans-Regular');
+}
+@font-face
+{
+    font-family:Roboto-Bold;
+    src: url('fonts/Roboto-Bold.ttf');
+}
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) 
+{
+    #insta-username
+    {     
+        width: 50%;
+        font-size: 14px;  
+        padding: 4px;      
+    }
+    .custom-file-upload 
+    {    
+        font-size:14px;     
+    }
+    .like-button a
+    {
+        font-size: 14px;       
+    }
+    #banner h1
+    {       
+        font-size: 32px;      
+    }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) 
+{
+    .menu-list ul li
+    {
+        margin-left: 0.5vw;
+    }
+}
+
+
